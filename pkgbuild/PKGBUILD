@@ -1,0 +1,19 @@
+# Maintainer: Alex Creio <ctlos@protonmail.com>
+
+pkgname=skeuos
+pkgver=1.0
+pkgrel=1
+pkgdesc='Gtk+ theme'
+url="https://github.com/ctlos/skeuos"
+arch=("any")
+license=("GPL")
+makedepends=('git')
+depends=("gtk-engine-murrine" "gtk-engines")
+source=("git+${url}.git")
+sha256sums=('SKIP')
+
+package() {
+  cd ${srcdir}/${pkgname}
+  install -dm755 "${pkgdir}/usr/share/themes"
+  make prefix="${pkgdir}/usr" install
+}

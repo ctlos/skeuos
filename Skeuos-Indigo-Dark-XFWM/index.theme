@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skeuos-Indigo-Dark-XFWM
+Comment=Skeuos-Indigo-Dark-XFWM theme"
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Skeuos-Indigo-Dark-XFWM
+MetacityTheme=Skeuos-Indigo-Dark-XFWM
+IconTheme=Flat-Remix-Blue-Dark
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
