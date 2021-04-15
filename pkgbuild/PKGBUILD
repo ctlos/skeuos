@@ -15,5 +15,5 @@ sha256sums=('SKIP')
 package() {
   cd ${srcdir}/${pkgname}
   install -dm755 "${pkgdir}/usr/share/themes"
-  make prefix="${pkgdir}/usr" install
+  make PREFIX="${pkgdir}/usr" install
 }
